@@ -2,6 +2,11 @@
 
 ## configure server
 
+### Install the EPEL repository
+#### sudo yum install epel-release -y
+```bash
+sudo yum update -y  && sudo yum upgrade -y
+```
 ### Install packages required to run Portus
 ```bash
 sudo yum install git gcc gcc-c++ yum-utils wget nano nodejs gettext device-mapper-persistent-data lvm2 bzip2 python3-pip -y
